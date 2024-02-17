@@ -1,6 +1,6 @@
 <div align="center">
   <p align="center">
-    <a href="https://farm-fe.github.io/" target="blank"><img src="https://raw.githubusercontent.com/farm-fe/farm/main/assets/logo.png" width="600" alt="Nest Logo" /></a>
+    <a href="https://farm-fe.github.io/" target="blank"><img src="https://raw.githubusercontent.com/farm-fe/farm/main/assets/logo.png" width="600" alt="Farm Logo" /></a>
   </p>
 <h1>Awesome Farm</h1>
 <p>A curated list of awesome things related to Farm</p>
