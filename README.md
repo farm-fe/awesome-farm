@@ -40,6 +40,8 @@
 
 ### JsPlugins
 
+- [vite plugins](https://github.com/vitejs/awesome-vite?tab=readme-ov-file#plugins)
+
 * **[`@farmfe/js-plugin-postcss`](https://github.com/farm-fe/farm/tree/main/js-plugins/postcss)**：Support `postcss` in your project.
 * **[`@farmfe/js-plugin-less`](https://github.com/farm-fe/farm/tree/main/js-plugins/less)**：Support compiling `less` files.
 * **[`@farmfe/js-plugin-svgr`](https://github.com/farm-fe/farm/tree/main/js-plugins/svgr)**：Support compiling `svg` files.
