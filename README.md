@@ -136,36 +136,3 @@ Plugins of Vite/Rollup/Unplugin can be directly used in Farm.
 
 See [Community Plugins](https://farm-fe.github.io/docs/plugins/community-plugins) for more available plugins.
 
-## Then start the project:
-
-```bash
-cd farm-project && npm start
-```
-
-See our 1 minute quick start video:
-
-https://github.com/farm-fe/farm/assets/8372439/51e8834b-584a-4d9f-ae6f-516da70d3173
-
-Refer to the [Documentation](https://farm-fe.github.io) to learn more about Farm.
-
-- **[Farm Guide](https://farm-fe.github.io/docs/quick-start)**
-- **[Farm Config](https://farm-fe.github.io/docs/config/farm-config)**
-- **[Farm Plugins](https://farm-fe.github.io/docs/plugins/overview)**
-
-
-### All Benchmark
-
-![performance](./assets/2023-12-5.benchmark.jpg)
-
-> Test Repository: https://github.com/farm-fe/performance-compare
->
-> Test Machine (Linux Mint 21.1 Cinnamon, 11th Gen Intel© Core™ i5-11400 @ 2.60GHz × 6, 15.5 GiB)
-
-<br />
-
-### Hot (Startup and Build) Benchmark
-
-> [!NOTE]
-> Since Farm v0.14, Farm has implemented persistent cache. The following compares Farm's use of persistent cache in hot starts and production builds with other tools.
-
-![performance](<./assets/2023-12-5.benchmark(hot).jpg>)
