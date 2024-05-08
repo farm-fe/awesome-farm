@@ -38,16 +38,6 @@
 
 ## Plugins
 
-### JsPlugins
-
-- [vite plugins](https://github.com/vitejs/awesome-vite?tab=readme-ov-file#plugins)
-
-* **[`@farmfe/js-plugin-postcss`](https://github.com/farm-fe/farm/tree/main/js-plugins/postcss)**：Support `postcss` in your project.
-* **[`@farmfe/js-plugin-less`](https://github.com/farm-fe/farm/tree/main/js-plugins/less)**：Support compiling `less` files.
-* **[`@farmfe/js-plugin-svgr`](https://github.com/farm-fe/farm/tree/main/js-plugins/svgr)**：Support compiling `svg` files.
-* **[`@farmfe/js-plugin-dts`](https://github.com/farm-fe/farm/tree/main/js-plugins/dts)**：Support compiling `*.d.ts` files.
-* **[`@farmfe/js-plugin-sass`](https://github.com/farm-fe/farm/tree/main/js-plugins/sass)**：Support compiling `sass/scss` files.
-
 ### RustPlugins
 
 > Other ecology supported
@@ -64,6 +54,15 @@
 * **[`farm-plugin-html-template`](https://github.com/jstors/farm-plugin-html-template)**: used to dynamically replace variables injected into HTML.
 * **[`farm-plugin-replace-dirname`](https://github.com/jstors/farm-plugin-replace-dirname)**: replacement `__dirname`, `__filename` in node.
 
+### JsPlugins
+
+- [vite plugins](https://github.com/vitejs/awesome-vite?tab=readme-ov-file#plugins)
+
+* **[`@farmfe/js-plugin-postcss`](https://github.com/farm-fe/farm/tree/main/js-plugins/postcss)**：Support `postcss` in your project.
+* **[`@farmfe/js-plugin-less`](https://github.com/farm-fe/farm/tree/main/js-plugins/less)**：Support compiling `less` files.
+* **[`@farmfe/js-plugin-svgr`](https://github.com/farm-fe/farm/tree/main/js-plugins/svgr)**：Support compiling `svg` files.
+* **[`@farmfe/js-plugin-dts`](https://github.com/farm-fe/farm/tree/main/js-plugins/dts)**：Support compiling `*.d.ts` files.
+* **[`@farmfe/js-plugin-sass`](https://github.com/farm-fe/farm/tree/main/js-plugins/sass)**：Support compiling `sass/scss` files.
 
 ### Examples
 
