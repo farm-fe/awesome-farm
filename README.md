@@ -58,6 +58,12 @@
 * **[`@farmfe/plugin-react`](https://github.com/farm-fe/farm/tree/main/rust-plugins/react)**：Support React `jsx` and `react-refresh`.
 * **[`@farmfe/plugin-sass`](https://github.com/farm-fe/farm/tree/main/rust-plugins/sass)**：Support compiling `sass/scss` files.
 
+> Farm Plugins
+
+* **[`farm-plugin-remove-console`](https://github.com/jstors/farm-plugin-remove-console)**: ✂️ farm's plugin of remove console
+* **[`farm-plugin-html-template`](https://github.com/jstors/farm-plugin-html-template)**: used to dynamically replace variables injected into HTML.
+* **[`farm-plugin-replace-dirname`](https://github.com/jstors/farm-plugin-replace-dirname)**: replacement `__dirname`, `__filename` in node.
+
 
 ### Examples
 
