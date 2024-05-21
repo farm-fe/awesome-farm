@@ -37,7 +37,6 @@
 * **[`farm-plugin-remove-console`](https://github.com/jstors/farm-plugin-remove-console)**: ✂️ farm's plugin of remove console
 * **[`farm-plugin-html-template`](https://github.com/jstors/farm-plugin-html-template)**: used to dynamically replace variables injected into HTML.
 * **[`farm-plugin-replace-dirname`](https://github.com/jstors/farm-plugin-replace-dirname)**: replacement `__dirname`, `__filename` in node.
-* **[`swc plugins`](https://swc.rs/docs/plugin/selecting-swc-core)**: View swc plugin.
 
 ### JsPlugins
 
@@ -51,7 +50,6 @@
 
 #### Community Plugins
 
-* **[`vite plugins`](https://github.com/vitejs/awesome-vite?tab=readme-ov-file#plugins)**： Support `Vite` plugin.
 * **[`@vitejs/plugin-vue`](https://github.com/vitejs/vite-plugin-vue/blob/main/packages/plugin-vue/README.md)**
 * **[`@vitejs/plugin-vue-jsx`](https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx)**
 * **[`vite-plugin-solid`](https://www.npmjs.com/package/vite-plugin-solid)**
@@ -97,3 +95,4 @@ Farm support compiling React, Vue, SolidJS, Sass, Less, and Css Modules official
 
 - [Farm Ecosystem](https://farm-fe.github.io/docs/plugins/community-plugins)
 - [Awesome Vite](https://github.com/vitejs/awesome-vite/blob/master/README.md)
+- [Swc Plugins](https://swc.rs/docs/plugin/selecting-swc-core)
