@@ -3,13 +3,7 @@
     <a href="https://farm-fe.github.io/" target="blank"><img src="https://raw.githubusercontent.com/farm-fe/farm/main/assets/logo.png" width="600" alt="Farm Logo" /></a>
   </p>
 <h1>Awesome Farm</h1>
-<p>A curated list of awesome things related to Farm</p>
-
-<a href="#resources">Resources</a>
-&nbsp;&nbsp;&nbsp;
-<a href="CONTRIBUTING.md">Contribution guide</a>
-&nbsp;&nbsp;&nbsp;
-<a href="https://farm-fe.github.io/">Official documentation</a>
+<p>A curated list of awesome things related to <a href="https://github.com/farm-fe/farm">Farm</a></p>
 
   <a href="https://awesome.re">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
@@ -27,7 +21,74 @@
 ## Get Started
 
 - [create-farm](https://github.com/vitejs/vite/tree/main/packages/create-vite) - Scaffolding Your First Farm Project.
-- [farm-react-admin](https://github.com/jstors/farm-react-admin) - Out-of-the-box Farm react template projects
+
+
+## Plugins
+
+### RustPlugins
+
+#### Official Plugins
+
+* **[`@farmfe/plugin-react`](https://github.com/farm-fe/farm/tree/main/rust-plugins/react)**：Support React `jsx` and `react-refresh`.
+* **[`@farmfe/plugin-sass`](https://github.com/farm-fe/farm/tree/main/rust-plugins/sass)**：Support compiling `sass/scss` files.
+
+####  Community Plugins
+
+* **[`farm-plugin-remove-console`](https://github.com/jstors/farm-plugin-remove-console)**: ✂️ farm's plugin of remove console
+* **[`farm-plugin-html-template`](https://github.com/jstors/farm-plugin-html-template)**: used to dynamically replace variables injected into HTML.
+* **[`farm-plugin-replace-dirname`](https://github.com/jstors/farm-plugin-replace-dirname)**: replacement `__dirname`, `__filename` in node.
+* **[`swc plugins`](https://swc.rs/docs/plugin/selecting-swc-core)**: View swc plugin.
+
+### JsPlugins
+
+#### Official Plugins
+
+* **[`@farmfe/js-plugin-postcss`](https://github.com/farm-fe/farm/tree/main/js-plugins/postcss)**：Support `postcss` in your project.
+* **[`@farmfe/js-plugin-less`](https://github.com/farm-fe/farm/tree/main/js-plugins/less)**：Support compiling `less` files.
+* **[`@farmfe/js-plugin-svgr`](https://github.com/farm-fe/farm/tree/main/js-plugins/svgr)**：Support compiling `svg` files.
+* **[`@farmfe/js-plugin-dts`](https://github.com/farm-fe/farm/tree/main/js-plugins/dts)**：Support compiling `*.d.ts` files.
+* **[`@farmfe/js-plugin-sass`](https://github.com/farm-fe/farm/tree/main/js-plugins/sass)**：Support compiling `sass/scss` files.
+
+#### Community Plugins
+
+* **[`vite plugins`](https://github.com/vitejs/awesome-vite?tab=readme-ov-file#plugins)**： Support `Vite` plugin.
+* **[`@vitejs/plugin-vue`](https://github.com/vitejs/vite-plugin-vue/blob/main/packages/plugin-vue/README.md)**
+* **[`@vitejs/plugin-vue-jsx`](https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx)**
+* **[`vite-plugin-solid`](https://www.npmjs.com/package/vite-plugin-solid)**
+* **[`vite-plugin-mock`](https://www.npmjs.com/package/vite-plugin-solid)**
+* **[`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import)**
+* **[`unplugin-vue2-script-setup`](https://github.com/antfu/unplugin-vue2-script-setup)**
+* **[`unplugin-icons`](https://github.com/antfu/unplugin-icons)**
+* **[`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components)**
+
+## Examples
+
+Farm support compiling React, Vue, SolidJS, Sass, Less, and Css Modules officially out of the box. See our examples:
+
+### React
+
+#### Official Examples
+* [`React-Basic`](https://github.com/farm-fe/farm/tree/main/examples/react)
+* [`React-Ant-Design`](https://github.com/farm-fe/farm/tree/main/examples/react-antd)
+* [`React-Sass-CssModules`](https://github.com/farm-fe/farm/tree/main/examples/css-modules)
+* [`React-Multi-Page-Application`](https://github.com/farm-fe/farm/tree/main/examples/multi-page-app)
+* [`React-SSR`](https://github.com/farm-fe/farm/tree/main/examples/react-ssr)
+* [`React-TailwindCSS`](https://github.com/farm-fe/farm/tree/main/examples/tailwind)
+
+#### Community Examples
+* [`Farm-react-admin`](https://github.com/jstors/farm-react-admin): 🧚Out-of-the-box Farm react template projects,Integrated router, global state library, and arco component library.
+
+### Vue
+
+#### Official Examples
+* [`Vue-Basic`](https://github.com/farm-fe/farm/tree/main/examples/vue)
+* [`Vue-Jsx`](https://github.com/farm-fe/farm/tree/main/examples/vue-jsx)
+* [`Vue-Antdv`](https://github.com/farm-fe/farm/tree/main/examples/vue-antdv)
+* [`Plugin-Vue`](https://github.com/farm-fe/farm/tree/main/examples/vite-adapter-vue)
+* [`Plugin-Solid`](https://github.com/farm-fe/farm/tree/main/examples/solid)
+
+#### Community Examples
+* [`farm-soybean-admin`](https://github.com/farm-fe/farm-soybean-admin): Migrate project from Vite to Farm
 
 
 ## Ecosystem
@@ -36,104 +97,3 @@
 
 - [Farm Ecosystem](https://farm-fe.github.io/docs/plugins/community-plugins)
 - [Awesome Vite](https://github.com/vitejs/awesome-vite/blob/master/README.md)
-
-## Plugins
-
-### RustPlugins
-
-> Other ecology supported
-- [swc plugins](https://swc.rs/docs/plugin/selecting-swc-core)
-
-> Farm ecology
-
-* **[`@farmfe/plugin-react`](https://github.com/farm-fe/farm/tree/main/rust-plugins/react)**：Support React `jsx` and `react-refresh`.
-* **[`@farmfe/plugin-sass`](https://github.com/farm-fe/farm/tree/main/rust-plugins/sass)**：Support compiling `sass/scss` files.
-
-> Farm Plugins
-
-* **[`farm-plugin-remove-console`](https://github.com/jstors/farm-plugin-remove-console)**: ✂️ farm's plugin of remove console
-* **[`farm-plugin-html-template`](https://github.com/jstors/farm-plugin-html-template)**: used to dynamically replace variables injected into HTML.
-* **[`farm-plugin-replace-dirname`](https://github.com/jstors/farm-plugin-replace-dirname)**: replacement `__dirname`, `__filename` in node.
-
-### JsPlugins
-
-- [vite plugins](https://github.com/vitejs/awesome-vite?tab=readme-ov-file#plugins)
-
-* **[`@farmfe/js-plugin-postcss`](https://github.com/farm-fe/farm/tree/main/js-plugins/postcss)**：Support `postcss` in your project.
-* **[`@farmfe/js-plugin-less`](https://github.com/farm-fe/farm/tree/main/js-plugins/less)**：Support compiling `less` files.
-* **[`@farmfe/js-plugin-svgr`](https://github.com/farm-fe/farm/tree/main/js-plugins/svgr)**：Support compiling `svg` files.
-* **[`@farmfe/js-plugin-dts`](https://github.com/farm-fe/farm/tree/main/js-plugins/dts)**：Support compiling `*.d.ts` files.
-* **[`@farmfe/js-plugin-sass`](https://github.com/farm-fe/farm/tree/main/js-plugins/sass)**：Support compiling `sass/scss` files.
-
-### Examples
-
-Farm support compiling React, Vue, SolidJS, Sass, Less, and Css Modules officially out of the box. See our examples:
-
-<table>
-  <thead>
-    <th>React Examples</th>
-    <th>Vue Examples</th>
-    <th>Vite Plugin Examples</th>
-  </thead>
-  <tbody>
-    <td>
-      <ul>
-        <ul>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/react">React-Basic</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/react-antd">React-Ant-Design</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/css-modules">React-Sass-CssModules</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/multi-page-app">React-Multi-Page-Application</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/react-ssr">React-SSR</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/tailwind">React-TailwindCSS</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/vue">Vue-Basic</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/vue-jsx">Vue-Jsx</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/vue-antdv">Vue-Antdv</a></li>
-</ul>
-    </td>
-    <td>
-    <ul>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/vite-adapter-vue">Plugin-Vue</a></li>
-<li><a href="https://github.com/farm-fe/farm/tree/main/examples/solid">Plugin-Solid</a></li>
-<li><a href="https://github.com/farm-fe/farm-soybean-admin">farm-soybean-admin</a>：A real admin project migrated from Vite to Farm</li>
-</ul>
-    </td>
-  </tbody>
-</table>
-
-### Farm Plugins
-
-See [Using Plugins](https://farm-fe.github.io/docs/using-plugins) for how to use plugins in Farm.
-
-### Rust Plugins
-
-- **[`@farmfe/plugin-react`](https://farm-fe.github.io/docs/plugins/official-plugins/react)**
-- **[`@farmfe/plugin-sass`](https://farm-fe.github.io/docs/plugins/official-plugins/sass)**
-
-### Js Plugins
-
-- **[`@farmfe/js-plugin-postcss`](https://farm-fe.github.io/docs/plugins/official-plugins/js-postcss)**
-- **[`@farmfe/js-plugin-less`](https://farm-fe.github.io/docs/plugins/official-plugins/js-less)**
-- **[`@farmfe/js-plugin-svgr`](https://farm-fe.github.io/docs/plugins/official-plugins/js-svgr)**
-- **[`@farmfe/js-plugin-dts`](https://farm-fe.github.io/docs/plugins/official-plugins/js-dts)**
-- **[`@farmfe/js-plugin-sass`](https://farm-fe.github.io/docs/plugins/official-plugins/js-sass)**
-
-### Community Plugins
-
-Plugins of Vite/Rollup/Unplugin can be directly used in Farm.
-
-- **[`@vitejs/plugin-vue`](https://github.com/vitejs/vite-plugin-vue/blob/main/packages/plugin-vue/README.md)**
-- **[`@vitejs/plugin-vue-jsx`](https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue-jsx)**
-- **[`vite-plugin-solid`](https://www.npmjs.com/package/vite-plugin-solid)**
-- **[`vite-plugin-mock`](https://www.npmjs.com/package/vite-plugin-solid)**
-- **[unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)**
-- **[unplugin-vue2-script-setup](https://github.com/antfu/unplugin-vue2-script-setup)**
-- **[unplugin-icons](https://github.com/antfu/unplugin-icons)**
-- **[unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)**
-- ...
-
-See [Community Plugins](https://farm-fe.github.io/docs/plugins/community-plugins) for more available plugins.
-
