@@ -27,6 +27,7 @@
 ## Get Started
 
 - [create-farm](https://github.com/vitejs/vite/tree/main/packages/create-vite) - Scaffolding Your First Farm Project.
+- [farm-react-admin](https://github.com/jstors/farm-react-admin) - Out-of-the-box Farm react template projects
 
 
 ## Ecosystem
