@@ -20,7 +20,7 @@
 
 ## Get Started
 
-- [create-farm](https://github.com/vitejs/vite/tree/main/packages/create-vite) - Scaffolding Your First Farm Project.
+- [create-farm](https://github.com/farm-fe/farm/tree/main/packages/create-farm) - Scaffolding Your First Farm Project.
 
 ## Plugins
 
