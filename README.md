@@ -37,6 +37,7 @@
 - **[`farm-plugin-html-template`](https://github.com/jstors/farm-plugin-html-template)**: used to dynamically replace variables injected into HTML.
 - **[`farm-plugin-replace-dirname`](https://github.com/jstors/farm-plugin-replace-dirname)**: replacement `__dirname`, `__filename` in node.
 - **[`farm-plugin-compression`](https://github.com/Weeken/farm-plugin-compression)**: compress resources from dist and generate `.gz` file.
+- **[`farm-plugin-pwa`](https://github.com/Weeken/farm-plugin-pwa)**: PWA integrations for farm.
 
 ### JsPlugins
 
