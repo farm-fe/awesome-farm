@@ -38,6 +38,9 @@
 - **[`farm-plugin-replace-dirname`](https://github.com/jstors/farm-plugin-replace-dirname)**: replacement `__dirname`, `__filename` in node.
 - **[`farm-plugin-compression`](https://github.com/Weeken/farm-plugin-compression)**: compress resources from dist and generate `.gz` file.
 - **[`farm-plugin-pwa`](https://github.com/Weeken/farm-plugin-pwa)**: PWA integrations for farm.
+- **[`farm-plugin-console-clear`](https://github.com/Weeken/farm-plugin-console-clear)**: A rust plugin for farm to clear console statement.
+- **[`farm-plugin-webp-to-png`](https://github.com/Weeken/farm-plugin-webp-to-png)**: A rust plugin for farm to automatically convert your webp to png, and compress all the png.
+- **[`farm-plugin-wasm`](https://github.com/Weeken/farm-plugin-wasm)**: Add WebAssembly integration to farm.
 
 ### JsPlugins
 
@@ -59,7 +62,6 @@
 - **[`unplugin-vue2-script-setup`](https://github.com/antfu/unplugin-vue2-script-setup)**
 - **[`unplugin-icons`](https://github.com/antfu/unplugin-icons)**
 - **[`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components)**
-- **[`farm-js-plugin-pwa`](https://github.com/Weeken/farm-js-plugin-pwa)**：PWA integrations for farm.
 
 ## Examples
 
